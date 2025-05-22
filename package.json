@@ -1,10 +1,12 @@
 {
   "name": "blazeforge-donate-site",
   "version": "1.0.0",
+  "homepage": "https://blazecodeprakhar.github.io/blazeforge-payment-gateway",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "latest",
