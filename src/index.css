@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom modal styles */
+.modal {
+  display: none;
+}
+.modal.active {
+  display: flex;
+}
+.blurred {
+  filter: blur(10px);
+}
